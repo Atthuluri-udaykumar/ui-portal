@@ -6,8 +6,11 @@ import Sidebar from '../components/Sidebar';
 const PublicLayout = ({ children }) => {
     return (
         <div>
+
             <Header/>
+
             {children}
+            
             <Sidebar/>
             <Footer/>
         </div>
